@@ -270,11 +270,13 @@ header {
  
 .footer-container{
   background-color: var(--background-black);
-  display: block;
+  display: flex;
   padding-bottom: 60px;
   padding-top: 60px;
   padding-left: 20px;
   margin-bottom: 9px;
+  align-items: right;
+  justify-content: space-between;
 }
 
 .address{
@@ -290,6 +292,35 @@ header {
 }
 .link-contact:hover {
 color: var(--primary-white-color);
+}
+
+/* redes sociales */
+
+.icon-social-media{
+  margin-left: 70px;
+  position: absolute;
+  width: 228px;
+  height: 80px;
+  margin-left: 516px;
+}
+
+.title-social{
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.button-socialmedia{
+  height: 44px;
+  width: 44px;
+  border-radius: 25px;
+  border: none;
+  background: #ffffff1a;
+  margin-right: 10px;
+  
+}
+.button-socialmedia:hover{
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 
