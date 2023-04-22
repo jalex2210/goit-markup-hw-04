@@ -34,9 +34,9 @@ body {
   letter-spacing: 0.03em;
   margin: auto;
   
-  /* Principal */
+  /* AREA Principal */
   width: 1600px;
-  height: 2410px;
+  height: 2931px;
 }
 
 .container {
@@ -44,19 +44,20 @@ body {
   margin: 0 auto;
 }
 
-.nav-container{
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+/* ENCABEZADO */
+
+.nav-container {
   display: flex;
   padding: 25px;
   justify-content: space-between;
-  margin-bottom: 9px;
-  height: 80px;
-}
-
-.contact-container{
-  display: flex;
-  padding: 10px;
-  justify-content: space-between;
-  margin-bottom: 9px;
   height: 80px;
 }
 
@@ -75,8 +76,17 @@ body {
   color: var(--primary-title-color);
   margin-left: 50px;
 }
+
 .header-link:hover {
   color: var(--accent-color);
+}
+
+.contact-container{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  height: 80px;
 }
 
 .tocontact {
@@ -90,13 +100,14 @@ body {
   color: var(--accent-color);
 }
 
+header {
+  border-bottom: 1px solid #ECECEC;
+  ;
+}
+
 /* ---------------------- */
 /* INDEX */
 /* ---------------------- */
-
-header{
-  border-bottom: 1px solid #ECECEC;;
-}
 
 .main-requeriment {
   display: flex;
@@ -137,14 +148,18 @@ header{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-a {
-  text-decoration: none;
-}
+/* BENEFICIOS DE LA COMPAÑIA*/
 
 .benefits {
   display: flex;
   padding-top: 95px;
   justify-content: space-evenly;
+}
+
+.main-benefits-p {
+  color: var(--primary-text-color);
+  display: block;
+  line-height: 24px;
 }
 
 .benefits-column{
@@ -159,11 +174,8 @@ a {
   padding-bottom: 10px;
 }
 
-.main-benefits-p {
-  color: var(--primary-text-color);
-  display: block;
-  line-height: 24px;
-}
+
+/* A QUE NOS DEDICAMOS */
 
 .title-h2{
   color: var(--primary-title-color);
@@ -181,8 +193,13 @@ a {
   padding-bottom: 94px;
 }
 
+
+/* Nuestro Equipo */
+
 .our-team{
   background-color: var(--background-gray);
+  width: 1600px;
+  height: 708px;
 }
 
 .members{
@@ -196,6 +213,8 @@ a {
   border-radius: opx opx 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
+  width: 270px;
+  height: 428px;
 }
 
 .name {
@@ -204,6 +223,8 @@ a {
   font-weight: 500;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .profession{
@@ -212,11 +233,34 @@ a {
   font-weight: 400;
   line-height: 19px;
   text-align: center;  
+  margin-bottom: 16px;
 }
 
+/* clientes regulare*/
+
+.regular-customers{
+  display: flex;
+  margin-bottom: 151px;
+}
+
+.button-customer{
+  background: var(--primary-white-color);
+  border-radius: 4px;
+  margin-right: 30px;
+  width: 170px;
+  height: 81px;
+  border: 1px solid #AFB1B8;
+  cursor: pointer;
+}
+.button-customer:hover{
+  border: 1px solid var(--accent-color);
+}
+
+/* FOOTER */
+ 
 .footer-container{
   background-color: var(--background-black);
-  display: flexbox;
+  display: block;
   padding-bottom: 60px;
   padding-top: 60px;
   padding-left: 20px;
@@ -228,14 +272,6 @@ a {
   padding-top: 9px;
 }
 
-.location-link {
-  color: var(--primary-white-color);
-  font-style: normal;
-  line-height: 1.7;
-  }  
-.location-link:hover{
-    color: var(--button-primary-hover);
-}
 
 .link-contact{
   color: var(--text-white-opacy);
@@ -243,13 +279,13 @@ a {
   line-height: 24px;
 }
 .link-contact:hover {
-color: var(--button-primary-hover);
+color: var(--primary-white-color);
 }
 
 
 
 
-/* portfolio */
+/* PORTAFOLIO */
 
 .body-portfolio{
 width: 1600px;
