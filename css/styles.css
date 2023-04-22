@@ -116,6 +116,11 @@ header {
   height: 600px;
   justify-content: center;
   flex-direction: column;
+  background-image: url(/images/background-image.jpeg);
+}
+
+.title-container{
+  background: rgba(47, 48, 58, 0.4);
 }
 
 .main-h1 {
