@@ -111,16 +111,14 @@ header {
 
 .main-requeriment {
   display: flex;
-  background-color: var(--background-black);
   align-items: center;
   height: 600px;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/images/background-image.jpeg);
-}
-
-.title-container{
-  background: rgba(47, 48, 58, 0.4);
+  background-color: var(--background-black);
+  background-image: 
+    linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/background-image.jpeg);
 }
 
 .main-h1 {
@@ -157,7 +155,7 @@ header {
 
 .benefits {
   display: flex;
-  padding-top: 95px;
+  padding-top: 82px;
   justify-content: space-evenly;
 }
 
