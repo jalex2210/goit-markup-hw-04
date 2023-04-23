@@ -157,6 +157,12 @@ header {
 }
 
 /* BENEFICIOS DE LA COMPAÑIA*/
+.icon{
+  height: 70px;
+}
+.icon:hover{
+  background: var(--accent-color);
+}
 
 .benefits {
   display: flex;
@@ -175,6 +181,7 @@ header {
 }
 
 .icon-benefits{
+  display: flex;
   width: 270px;
   height: 120px;
   background: #F5F4FA;
@@ -182,6 +189,8 @@ header {
   border: none;
   margin-bottom: 30px;
   margin-top: 94px;
+  align-items: center;
+  
 }
 
 .title-h3 {
@@ -285,6 +294,20 @@ header {
   margin-bottom: 16px;
 }
 
+.social-networks{
+  display: flex;
+  width: 206px;
+  height: 44px;
+  background-color: #7641b6;
+  margin-left: 32px;
+  align-items: center;
+}
+
+.icon-social-media{
+  height: 20px;
+  
+}
+
 /* clientes regulare*/
 
 .regular-customers{
@@ -297,11 +320,12 @@ header {
 .button-customer{
   background: var(--primary-white-color);
   border-radius: 4px;
-
+  display: flex;
   width: 170px;
   height: 81px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid ##AFB1B8;
   cursor: pointer;
+  align-items: center;
 }
 .button-customer:hover
 .button-customer:focus{
