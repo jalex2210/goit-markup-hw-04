@@ -34,9 +34,9 @@ body {
   letter-spacing: 0.03em;
   margin: auto;
   
-  /* AREA Principal */
+  /* AREA Principal 
   width: 1600px;
-  height: 2931px;
+  height: 2931px;*/
 }
 
 .container {
@@ -310,14 +310,11 @@ header {
 
 /* FOOTER */
  
-.footer-container{
+.footer{
   background-color: var(--background-black);
-  display: flex;
-  padding-bottom: 60px;
   padding-top: 60px;
   padding-left: 20px;
-  margin-bottom: 9px;
-  align-items: right;
+  height: 252px;
 }
 
 .address{
@@ -338,15 +335,21 @@ color: var(--primary-white-color);
 
 /* redes sociales */
 
-.icon-social-media{
-  margin-left: 70px;
-  position: absolute;
-  margin-left: 516px;
+.footer-container{
+  display: flex;
 }
 
-.title-social{
+.title-social {
   color: var(--primary-white-color);
   margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+.items-socialmedia{
+  display: flex;
+  margin-left: 70px;
+  justify-content: center;
+  gap: 10px;
 }
 
 .button-socialmedia{
@@ -355,7 +358,6 @@ color: var(--primary-white-color);
   border-radius: 25px;
   border: none;
   background: #ffffff1a;
-  margin-right: 10px;
 }
 .button-socialmedia:hover,
 .button-socialmedia:focus{
