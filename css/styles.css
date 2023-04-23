@@ -96,8 +96,9 @@ ul{
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-left: 50px;
+  margin-left: 10px;
 }
+
 .tocontact:hover,
 .tocontact:focus {
   color: var(--accent-color);
@@ -106,6 +107,24 @@ ul{
 header {
   border-bottom: 1px solid #ECECEC;
   ;
+}
+
+.icon-folder{
+  width:16px;
+  height:12px;
+  margin-right: 10px;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.icon-phone,
+.icon-folder:hover{
+  fill: var(--accent-color);
 }
 
 /* ---------------------- */
@@ -296,16 +315,35 @@ header {
 
 .social-networks{
   display: flex;
-  width: 206px;
-  height: 44px;
-  background-color: #7641b6;
-  margin-left: 32px;
+  justify-content: center;
   align-items: center;
+  margin-top: 28px;
 }
 
 .icon-social-media{
   height: 20px;
-  
+  justify-content: center;
+  width: 20px;  
+}
+
+.icon-circle{
+  width: 44px;
+  height: 44px;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--primary-white-color);
+}
+
+
+
+.icon-circle:hover{
+  background-color: var(--accent-color);
+}
+
+.icon-social-media:hover {
+  fill: var(--primary-white-color);
+  height: 20px;
+  width: 20px;
 }
 
 /* clientes regulare*/
