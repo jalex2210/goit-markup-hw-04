@@ -418,7 +418,7 @@ color: var(--primary-white-color);
 /* redes sociales */
 
 .footer-container{
-  display: flex;
+  display: inline-flex;
 }
 
 .title-social {
@@ -429,14 +429,14 @@ color: var(--primary-white-color);
 
 .items-socialmedia{
   display: flex;
-  margin-left: 70px;
+  margin-left: 60px;
   justify-content: center;
   gap: 10px;
 }
 
 .icon-circle-footer{
-  height: 44px;
   width: 44px;
+  height: 44px;
   border-radius: 25px;
   border: none;
   background-color: #ffffff1a;;
@@ -447,8 +447,11 @@ color: var(--primary-white-color);
   cursor: pointer;
 }
 
-.icon-social-media{
+.social-media{
   fill: var(--primary-white-color);
+  height: 20px;
+  justify-content: center;
+  width: 20px;
 }
 
 /* PORTAFOLIO */
