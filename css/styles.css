@@ -365,7 +365,7 @@ header {
   cursor: pointer;
   align-items: center;
 }
-.button-customer:hover
+.button-customer:hover,
 .button-customer:focus{
   border: 1px solid var(--accent-color);
 }
