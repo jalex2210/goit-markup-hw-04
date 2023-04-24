@@ -314,13 +314,16 @@ header {
 }
 
 .social-networks{
-  display: flex;
+  margin-left: 32px;
   justify-content: center;
   align-items: center;
   margin-top: 28px;
+  width: 206px;
+  height: 80px;
 }
 
 .icon-social-media{
+  
   height: 20px;
   justify-content: center;
   width: 20px;  
@@ -333,8 +336,6 @@ header {
   border: none;
   background-color: var(--primary-white-color);
 }
-
-
 
 .icon-circle:hover{
   background-color: var(--accent-color);
@@ -414,20 +415,18 @@ color: var(--primary-white-color);
   gap: 10px;
 }
 
-.button-socialmedia{
+.icon-circle-footer{
   height: 44px;
   width: 44px;
   border-radius: 25px;
   border: none;
-  background: #ffffff1a;
+  background-color: #ffffff1a;;
 }
-.button-socialmedia:hover,
-.button-socialmedia:focus{
+.icon-circle-footer:hover,
+.icon-circle-footer:focus{
   background-color: var(--accent-color);
   cursor: pointer;
 }
-
-
 
 
 /* PORTAFOLIO */
