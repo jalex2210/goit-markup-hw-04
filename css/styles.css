@@ -342,12 +342,14 @@ header {
   background-color: var(--primary-white-color);
 }
 
+.icon-circle:focus,
 .icon-circle:hover{
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .icon-social-media:hover,
-.icon-social-media:focus {
+.icon-social-media:focus{
   fill: var(--primary-white-color);
   height: 20px;
   width: 20px;
@@ -380,9 +382,10 @@ header {
 
 .icon-customer{
   width: 106px;
-  fill: #AFB1B8;
+  fill: #AFB1B8;          
   margin-left: 32px;
 }
+.icon-customer:focus,
 .icon-customer:hover{
   fill: var(--accent-color);
 }
@@ -444,6 +447,9 @@ color: var(--primary-white-color);
   cursor: pointer;
 }
 
+.icon-social-media{
+  fill: var(--primary-white-color);
+}
 
 /* PORTAFOLIO */
 
@@ -476,7 +482,7 @@ height: 1880px;
   border: none;
 }
 
-.text:hover
+.text:hover,
 .text:focus {
   color: var(--primary-white-color);
 }
