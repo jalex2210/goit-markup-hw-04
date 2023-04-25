@@ -84,6 +84,7 @@ ul{
   color: var(--accent-color);
 }   
 
+/* contacto del header */
 
 .contact-header{
   display: flex;
@@ -99,40 +100,31 @@ ul{
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
-
-.contact:hover,
-.contact:focus {
-  color: var(--accent-color);
-}
-
-header {
-  border-bottom: 1px solid #ECECEC;
-  ;
-}
-
-.icon-folder{
-  width:16px;
-  height:12px;
-  margin-right: 10px;
   fill: var(--primary-text-color);
+}
+
+.contact:focus,
+.contact:hover{
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.icon-folder {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
 }
 
 .icon-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--primary-text-color);
 }
 
-.icon-phone:hover,
-.icon-folder:hover{
-  fill: var(--accent-color);
-}
 
-.icon-phone:focus,
-.icon-folder:focus {
-  fill: var(--accent-color);
+header {
+  border-bottom: 1px solid #ECECEC;
+  ;
 }
 
 /* ---------------------- */
@@ -185,7 +177,7 @@ header {
 
 /* BENEFICIOS DE LA COMPAÑIA */
 
-.icon{
+.icon-svg-benefit{
   height: 70px;
 }
 
@@ -322,40 +314,37 @@ header {
 }
 
 .social-networks{
-  margin-left: 32px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
   margin-top: 28px;
-  width: 206px;
+  width: 216px;
   height: 80px;
+  margin-left: 32px;
+  gap: 10px;
 }
 
-.icon-social-media{
-  fill: var(--icon-color);
-  height: 20px;
-  justify-content: center;
-  width: 20px;  
-}
-
-.icon-circle{
+.icon-circle {
+  background-color: var(--primary-white-color);
   width: 44px;
   height: 44px;
   border-radius: 25px;
   border: none;
-  background-color: var(--primary-white-color);
+  text-align: center;
+  padding: 12px;
+  cursor: pointer;
+  align-items: center;
+  fill: var(--icon-color);
+}
+
+.icon-social-media{
+  height: 20px;
+  width: 20px;
 }
 
 .icon-circle:focus,
 .icon-circle:hover{
   background-color: var(--accent-color);
   cursor: pointer;
-}
-
-.icon-social-media:hover,
-.icon-social-media:focus{
   fill: var(--primary-white-color);
-  height: 20px;
-  width: 20px;
 }
 
 /* clientes regulare*/
