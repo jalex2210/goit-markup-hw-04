@@ -60,6 +60,7 @@ ul{
   padding: 25px;
   justify-content: space-between;
   height: 80px;
+  align-items: center;
 }
 
 .Web-logo {
@@ -84,15 +85,15 @@ ul{
 }   
 
 
-.contact-container{
+.contact-header{
   display: flex;
-  padding: 10px;
+  padding: 20px;
   justify-content: space-between;
-  margin-bottom: 9px;
   height: 16px;
+  align-items: center;
 }
 
-.tocontact {
+.contact {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
