@@ -13,9 +13,9 @@
 
   <body class="body-portfolio">
     <!-- ENCABEZADO -->
-    <header>
-      <div class="container nav-container">
-        <nav>
+     <header class="container nav-container">
+      <!-- nav -->
+      <nav class="nav-container">
           <!-- LOGO -->
           <a class="Web-logo" href="./index.html">WebStudio</a>
 
@@ -23,23 +23,23 @@
           <a class="header-link" href="index.html">Estudio</a>
           <a class="header-link" href="portfolio.html">Portafolio</a>
           <a class="header-link" href="">Сontactos</a>
-        </nav>
-
-        <div class="contact-container">
-          <a class="tocontact" href="malito:info@example.com">
+      </nav>
+      <!-- contacto -->
+      <div class="contact-header">
+          <a class="contact" href="malito:info@example.com">
             <svg class="icon-folder">
               <use href="./images/SVG/sprite.svg#sobre"></use>
             </svg>info@devstudio.com
           </a>
 
-          <a class="tocontact" href="tel:=525555296000">
+          <a class="contact" href="tel:525555296000">
             <svg class="icon-phone">
               <use href="./images/SVG/sprite.svg#celular"></use>
-            </svg>+52 55 5529 6000
+              </svg>+52 55 5529 6000
           </a>
-        </div>
-      </div>
+      </div> 
     </header>
+
     <!-- PRINCIPAL -->
     <main>
       <div class="container portfolio-page">
@@ -194,78 +194,74 @@
     </main>
 
     <!-- PIE DE PÁGINA -->
-    <footer>
-      <!-- Contacto -->
-      <div class="footer">
-        <div class="container footer-container">
-          <div class="list-footer">
-            <ul>
-              <li><a href="./index.html" class="Web-logo">WebStudio</a></li>
+    <footer class="footer">
+      <div class="container footer-container">
+        <!-- Contacto -->
+        <div class="list-footer">
+          <ul>
+            <li><a href="./index.html" class="Web-logo">WebStudio</a></li>
 
-              <address class="address">
-                <li>
-                  <a class="link-contact" href="#"
-                    >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-                  >
-                </li>
+            <address class="address">
+              <li>
+                <a class="link-contact" href="#"
+                  >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+                >
+              </li>
 
-                <li>
-                  <a class="link-contact" href="mailto:info@example.com"
-                    >info@example.com</a
-                  >
-                </li>
+              <li>
+                <a class="link-contact" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
 
-                <li>
-                  <a class="link-contact" href="tel:+525555296000"
-                    >+52 55 5529 6000</a
-                  >
-                </li>
-              </address>
-            </ul>
-          </div>
+              <li>
+                <a class="link-contact" href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </li>
+            </address>
+          </ul>
+        </div>
 
-          <!-- Redes Sociales -->
+        <!-- Redes Sociales -->
+        <div class="footer-social-media">
+          <h3 class="title-h3 title-social">ENCUENTRANOS EN</h3>
 
-          <div class="footer-social-media">
-            <h3 class="title-h3 title-social">ENCUENTRANOS EN</h3>
+          <div class="items-socialmedia">
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </button>
 
-            <div class="items-socialmedia">
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="icon-social-media">
-                    <use href="./images/svg/sprite.svg#instagram"></use>
-                  </svg>
-                </a>
-              </button>
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </button>
 
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="icon-social-media">
-                    <use href="./images/svg/sprite.svg#twitter"></use>
-                  </svg>
-                </a>
-              </button>
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </button>
 
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="icon-social-media">
-                    <use href="./images/svg/sprite.svg#facebook"></use>
-                  </svg>
-                </a>
-              </button>
-
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="icon-social-media">
-                    <use href="./images/svg/sprite.svg#linkedlin"></use>
-                  </svg>
-                </a>
-              </button>
-            </div>
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#linkedlin"></use>
+                </svg>
+              </a>
+            </button>
           </div>
         </div>
       </div>
     </footer>
-  </body>
   </body>
 </html>
