@@ -365,21 +365,17 @@ header {
   border: 1px solid #AFB1B8;
   cursor: pointer;
   align-items: center;
-  
+  fill: #AFB1B8;
 }
 .button-customer:hover,
 .button-customer:focus{
   border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .icon-customer{
-  width: 106px;
-  fill: #AFB1B8;          
+  width: 106px;         
   margin-left: 32px;
-}
-.icon-customer:focus,
-.icon-customer:hover{
-  fill: var(--accent-color);
 }
 
 /* FOOTER */
