@@ -101,8 +101,8 @@ ul{
   margin-left: 10px;
 }
 
-.tocontact:hover,
-.tocontact:focus {
+.contact:hover,
+.contact:focus {
   color: var(--accent-color);
 }
 
