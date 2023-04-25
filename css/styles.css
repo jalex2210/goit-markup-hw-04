@@ -91,6 +91,7 @@ ul{
   justify-content: space-between;
   height: 16px;
   align-items: center;
+  gap: 50px;
 }
 
 .contact {
@@ -98,7 +99,6 @@ ul{
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-left: 10px;
 }
 
 .contact:hover,
@@ -121,15 +121,17 @@ header {
 .icon-phone {
   width: 10px;
   height: 16px;
-  margin-left: 50px;
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
 
 .icon-phone:hover,
-.icon-folder:hover,
+.icon-folder:hover{
+  fill: var(--accent-color);
+}
+
 .icon-phone:focus,
-.icon-folder:focus{
+.icon-folder:focus {
   fill: var(--accent-color);
 }
 
@@ -465,57 +467,38 @@ height: 1880px;
 .portfolio-page{
   width: 1170px;
   height: 1360px;
-  left: 215px;
-  top: 186px;
-  margin-bottom: 82px;
-  
+  margin-bottom: 82px
 }
 
-.filter-container{
-  margin-left: 270px;
-  margin-right: 270px;
-}
-
-.butt {
-  background: var(--background-gray);
-  border-radius: 4px;
-  height: 38px;
-  margin-left: 8px;
-  padding-left: 24px;
-  padding-right: 24px;
-  border: none;
-}
-
-.text:hover,
-.text:focus {
-  color: var(--primary-white-color);
-}
-
-.butt:hover,
-.butt:focus{
-  height: 38px;
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  cursor: pointer;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-
+/* botones */
 .filter {
   display: flex;
   margin-top: 106px;
   padding-bottom: 56px;
   justify-content: center;
+  gap: 8px;
 }
 
-.text {
+.button-filter {
+  background: var(--background-gray);
+  border-radius: 4px;
+  height: 38px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: none;
+  color: var(--primary-title-color);
   font-size: 16px;
   line-height: 26px;
-  text-align: justify;
-  color: var(--primary-title-color);
-  
+}
+
+.button-filter:hover,
+.button-filter:focus{
+  height: 38px;
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--primary-white-color);
+  cursor: pointer;
 }
 
 /*imagenes*/
@@ -526,47 +509,38 @@ height: 1880px;
   padding-bottom: 30px;
   flex-wrap: wrap;
   gap: 30px;
+  border: none;
 }
 
-.card-access{
+.link-card{
   background: var(--primary-white-color);
   border: 1px solid #EEEEEE;
   width: 370px;
   height: 404px;
-  
 }
 
-.card-access:hover {
-  box-sizing: border-box;
+.link-card:focus,
+.link-card:hover{
+
   border-radius: 4px;
   cursor: pointer;
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+              0px 4px 4px rgba(0, 0, 0, 0.06),
+              1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 
 .title-image {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 24px;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
     padding-left: 24px;
     text-align: left;
-    width: 322px;
     padding-top: 20px;
-}
-
-.title-image-poster{
-    font-weight: 700;
-      font-size: 18px;
-      letter-spacing: 0.06em;
-      color: var(--primary-title-color);
-      padding-left: 24px;
-      text-align: left;
-      width: 322px;
-      padding-top: 20px;
+    padding-bottom: 4px;
 }
 
 .description {
