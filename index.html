@@ -13,9 +13,9 @@
 
   <body>
     <!-- ENCABEZADO -->
-    <header>
-      <div class="container nav-container">
-        <nav>
+    <header class="container nav-container">
+      <!-- nav -->
+      <nav>
           <!-- LOGO -->
           <a class="Web-logo" href="./index.html">WebStudio</a>
 
@@ -23,9 +23,9 @@
           <a class="header-link" href="index.html">Estudio</a>
           <a class="header-link" href="portfolio.html">Portafolio</a>
           <a class="header-link" href="">Сontactos</a>
-        </nav>
-
-        <div class="contact-container">
+      </nav>
+      <!-- contacto -->
+      <div class="contact-container">
           <a class="tocontact" href="malito:info@example.com">
             <svg class="icon-folder">
               <use href="./images/SVG/sprite.svg#sobre"></use>
@@ -35,32 +35,31 @@
           <a class="tocontact" href="tel:=525555296000">
             <svg class="icon-phone">
               <use href="./images/SVG/sprite.svg#celular"></use>
-            </svg>+52 55 5529 6000
+              </svg>+52 55 5529 6000
           </a>
-        </div>
-      </div>
+      </div> 
     </header>
 
-    <!-- BODY  -->
+    <!-- MAIN  -->
     <main>
       <!-- TITULO PRINCIPAL -->
-      <div class="title-container">
-        <section class="main-requeriment">
+      <section class="title-container">
+        <div class="main-requeriment">
           <h1 class="container main-h1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
           <button class="main-button" type="button">
             Solicite nuestro servicio
           </button>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- BENEFICIOS DE LA COMPAÑÍA-->
-      <div class="container benefits">
+      <section class="container benefits">
         <div class="benefits-column">
-            <button class="icon-benefits" type="button">
-              <svg class="icon">
-                <use href="./images/SVG/sprite.svg#antena"></use>
-              </svg>
-            </button>
+          <button class="icon-benefits" type="button">
+            <svg class="icon">
+              <use href="./images/SVG/sprite.svg#antena"></use>
+            </svg>
+          </button>
           <h3 class="title-h3">ATENCIÓN A LOS DETALLES</h3>
           <p class="main-benefits-p">
             Nos adentramos en todos los detalles y procesos de su negocio, para
@@ -69,10 +68,11 @@
         </div>
 
         <div class="benefits-column">
-            <button class="icon-benefits" type="button">
-              <svg class="icon">
-                <use href="./images/SVG/sprite.svg#reloj"></use>
-              </svg></button>
+          <button class="icon-benefits" type="button">
+            <svg class="icon">
+              <use href="./images/SVG/sprite.svg#reloj"></use>
+            </svg>
+          </button>
           <h3 class="title-h3">PUNTUALIDAD</h3>
           <p class="main-benefits-p">
             Con nosotros, usted puede sentirse seguro y protegido. Un principio
@@ -82,10 +82,11 @@
         </div>
 
         <div class="benefits-column">
-            <button class="icon-benefits" type="button">
-              <svg class="icon">
-                <use href="./images/SVG/sprite.svg#pc"></use>
-              </svg></button>
+          <button class="icon-benefits" type="button">
+            <svg class="icon">
+              <use href="./images/SVG/sprite.svg#pc"></use>
+            </svg>
+          </button>
           <h3 class="title-h3">PLANIFICACIÓN</h3>
           <p class="main-benefits-p">
             Usted podrá observar y participar en cada fase del desarrollo y
@@ -94,38 +95,37 @@
         </div>
 
         <div class="benefits-column">
-            <button class="icon-benefits" type="button">
-              <svg class="icon">
-                <use href="./images/SVG/sprite.svg#astronauta"></use>
-              </svg></button>
+          <button class="icon-benefits" type="button">
+            <svg class="icon">
+              <use href="./images/SVG/sprite.svg#astronauta"></use>
+            </svg>
+          </button>
           <h3 class="title-h3">TEGNOLOGÍA MODERNA</h3>
           <p class="main-benefits-p">
             Usamos herramientas innovadoras para resolver las tareas asignadas.
             Es hora de simplificar los procesos laborales.
           </p>
         </div>
-      </div>
+      </section>
 
       <!-- A QUE NOS DEDICAMOS -->
-      <div>
-        <section>
-          <h2 class="title-h2">A qué nos dedicamos</h2>
-          <!-- IMAGENES  -->
-          <div class="container what-do-images">
-            <div class="image-whatdo1">
-              <button class="button-what-do">APLICACIONES DE ESCRITORIO</button>
-            </div>
-
-            <div class="image-whatdo2">
-              <button class="button-what-do">APLICACIONES MÓVILES</button>
-            </div>
-
-            <div class="image-whatdo3">
-              <button class="button-what-do">SOLUCIONES DE DISEÑO</button>
-            </div>
+      <section>
+        <h2 class="title-h2">A qué nos dedicamos</h2>
+        <!-- IMAGENES  -->
+        <div class="container what-do-images">
+          <div class="image-whatdo1">
+            <button class="button-what-do">APLICACIONES DE ESCRITORIO</button>
           </div>
-        </section>
-      </div>
+
+          <div class="image-whatdo2">
+            <button class="button-what-do">APLICACIONES MÓVILES</button>
+          </div>
+
+          <div class="image-whatdo3">
+            <button class="button-what-do">SOLUCIONES DE DISEÑO</button>
+          </div>
+        </div>
+      </section>
 
       <!-- NUESTRO EQUIPO -->
       <section class="container our-team">
@@ -309,7 +309,7 @@
         </div>
       </section>
 
-       <!-- CLIENTES REGULARES  -->
+      <!-- CLIENTES REGULARES  -->
       <section class="container custumer">
         <h2 class="title-h2">Clientes Regulares</h2>
 
@@ -372,74 +372,71 @@
     </main>
 
     <!-- PIE DE PÁGINA -->
-    <footer>
-      <!-- Contacto -->
-      <div class="footer">
-        <div class="container footer-container">
-          <div class="list-footer">
-            <ul>
-              <li><a href="./index.html" class="Web-logo">WebStudio</a></li>
+    <footer class="footer">
+      <div class="container footer-container">
+        <!-- Contacto -->
+        <div class="list-footer">
+          <ul>
+            <li><a href="./index.html" class="Web-logo">WebStudio</a></li>
 
-              <address class="address">
-                <li>
-                  <a class="link-contact" href="#"
-                    >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-                  >
-                </li>
+            <address class="address">
+              <li>
+                <a class="link-contact" href="#"
+                  >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+                >
+              </li>
 
-                <li>
-                  <a class="link-contact" href="mailto:info@example.com"
-                    >info@example.com</a
-                  >
-                </li>
+              <li>
+                <a class="link-contact" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
 
-                <li>
-                  <a class="link-contact" href="tel:+525555296000"
-                    >+52 55 5529 6000</a
-                  >
-                </li>
-              </address>
-            </ul>
-          </div>
+              <li>
+                <a class="link-contact" href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </li>
+            </address>
+          </ul>
+        </div>
 
-          <!-- Redes Sociales -->
+        <!-- Redes Sociales -->
+        <div class="footer-social-media">
+          <h3 class="title-h3 title-social">ENCUENTRANOS EN</h3>
 
-          <div class="footer-social-media">
-            <h3 class="title-h3 title-social">ENCUENTRANOS EN</h3>
+          <div class="items-socialmedia">
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </button>
 
-            <div class="items-socialmedia">
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="social-media">
-                    <use href="./images/SVG/sprite.svg#instagram"></use>
-                  </svg>
-                </a>
-              </button>
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </button>
 
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="social-media">
-                    <use href="./images/SVG/sprite.svg#twitter"></use>
-                  </svg>
-                </a>
-              </button>
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </button>
 
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="social-media">
-                    <use href="./images/SVG/sprite.svg#facebook"></use>
-                  </svg>
-                </a>
-              </button>
-
-              <button class="icon-circle-footer">
-                <a href="#">
-                  <svg class="social-media">
-                    <use href="./images/SVG/sprite.svg#linkedlin"></use>
-                  </svg>
-                </a>
-              </button>
-            </div>
+            <button class="icon-circle-footer">
+              <a href="#">
+                <svg class="social-media">
+                  <use href="./images/SVG/sprite.svg#linkedlin"></use>
+                </svg>
+              </a>
+            </button>
           </div>
         </div>
       </div>
