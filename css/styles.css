@@ -260,7 +260,6 @@ header{
   padding-bottom: 94px;
   gap: 30px;
 }
-
 .card-member{
   background-color: var(--primary-white-color);
   border-radius: opx opx 4px 4px;
@@ -269,7 +268,6 @@ header{
   width: 270px;
   height: 428px;
 }
-
 .name {
   color: var(--primary-title-color);
   font-size: 16px;
@@ -279,7 +277,6 @@ header{
   margin-bottom: 10px;
   margin-top: 30px;
 }
-
 .profession{
   color: var(--primary-text-color);
   font-size: 16px;
@@ -288,7 +285,6 @@ header{
   text-align: center;  
   margin-bottom: 16px;
 }
-
 .social-networks{
   display: flex;
   margin-top: 28px;
@@ -297,7 +293,6 @@ header{
   margin-left: 32px;
   gap: 10px;
 }
-
 .icon-circle {
   background-color: var(--primary-white-color);
   width: 44px;
@@ -310,12 +305,10 @@ header{
   align-items: center;
   fill: var(--icon-color);
 }
-
 .icon-social-media{
   height: 20px;
   width: 20px;
 }
-
 .icon-circle:focus,
 .icon-circle:hover{
   background-color: var(--accent-color);
@@ -323,7 +316,7 @@ header{
   fill: var(--primary-white-color);
 }
 
-/* clientes regulare*/
+/* CLIENTES REGULARES */
 
 .regular-customers{
   display: flex;
