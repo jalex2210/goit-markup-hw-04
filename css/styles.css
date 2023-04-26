@@ -8,8 +8,7 @@
   padding: 0;
 }
 
-/* declaracion de variables */
-
+      /* declaracion de variables */
 :root {
   --primary-title-color: #212121;
   --primary-white-color: #ffffff;
@@ -25,7 +24,6 @@
   --icon-color: #AFB1B8;
 }
 
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -39,16 +37,13 @@ body {
   width: 1600px;
   height: 2931px;*/
 }
-
 .container {
   width: 1200px;
   margin: 0 auto;
 }
-
 a {
   text-decoration: none;
 }
-
 ul{
   list-style: none;
 }
@@ -83,9 +78,7 @@ ul{
   color: var(--accent-color);
 }
 
-
 /* contacto del header */
-
 .contact-header{
   display: flex;
   padding: 20px;
@@ -124,6 +117,9 @@ header{
 /* INDEX */
 /* ---------------------- */
 
+
+/*  TITULO PRINCIPAL */
+
 .main-requeriment {
   display: flex;
   align-items: center;
@@ -136,7 +132,6 @@ header{
     url(../images/background-image.jpeg);
   background-size: cover;
 }
-
 .main-h1 {
   color: var(--primary-white-color);
   font-size: 44px;
@@ -148,7 +143,6 @@ header{
   padding-right: 250px;
   padding-left: 250px;
 }
-
 .main-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -175,11 +169,9 @@ header{
   padding-top: 82px;
   justify-content: space-evenly;
 }
-
 .benefits-column {
   width: 270px;
 }
-
 .icon-benefits {
   display: flex;
   width: 270px;
@@ -192,18 +184,14 @@ header{
   align-items: center;
   background-color: var(--background-gray);
 }
-
 .icon-svg-benefit {
   height: 70px;
 }
-
-.main-benefits-p {
+.benefits-paragraph {
   color: var(--primary-text-color);
   display: block;
   line-height: 24px;
 }
-
-
 .title-h3 {
   color: var(--primary-title-color);
   font-weight: 700;
@@ -211,7 +199,6 @@ header{
   text-transform: uppercase;
   padding-bottom: 10px;
 }
-
 
 /* A QUE NOS DEDICAMOS */
 
@@ -224,34 +211,29 @@ header{
   padding-top: 94px;
   text-align: center;
 }
-
-.what-do-images {
+.what-do-box {
   display: flex;
   padding-bottom: 94px;
   gap: 30px;
   justify-content: center;
 }
-
 .image-whatdo1 {
   width:373px;
   height:294px;
   background-image:url(../images/image1.jpeg);
 }
-
 .image-whatdo2 {
   width: 373px;
   height: 294px;
   background-image: url(../images/image2.jpeg);
 }
-
 .image-whatdo3 {
   width: 373px;
   height: 294px;
   background-image: url(../images/image3.jpeg);
 }
-
-.button-what-do {
-  display:flexbox;
+.box-what-do {
+  display:flex;
   border: none;
   width: 370px;
   height: 70px;
@@ -260,10 +242,11 @@ header{
   color: var(--primary-white-color);
   background: rgba(47, 48, 58, 0.8);
   margin-top:224px;
-  
+  justify-content: center;
+  align-items: center;
 }
 
-/* Nuestro Equipo */
+/* NUESTRO EQUIPO */
 
 .our-team{
   background-color: var(--background-gray);
@@ -271,7 +254,6 @@ header{
   height: 708px;
   
 }
-
 .members{
   display: flex;
   justify-content: space-evenly;
