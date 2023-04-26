@@ -324,7 +324,6 @@ header{
   justify-content: center;
   gap: 30px
 }
-
 .button-customer{
   background: var(--primary-white-color);
   border-radius: 4px;
@@ -341,7 +340,6 @@ header{
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
-
 .icon-customer{
   width: 106px;         
   margin-left: 32px;
@@ -349,19 +347,20 @@ header{
 
 /* FOOTER */
  
+/* Lista de contacto */
 .footer{
   background-color: var(--background-black);
   padding-top: 60px;
   padding-left: 20px;
   height: 252px;
 }
-
+.footer-container {
+  display: flex;
+}
 .address{
   width: 180px;
   padding-top: 9px;
 }
-
-
 .link-contact{
   color: var(--text-white-opacy);
   font-style: normal;
@@ -373,11 +372,6 @@ color: var(--primary-white-color);
 }
 
 /* redes sociales */
-
-.footer-container{
-  display: flex;
-}
-
 .title-social {
   color: var(--primary-white-color);
   margin-bottom: 20px;
@@ -387,34 +381,39 @@ color: var(--primary-white-color);
 .items-socialmedia{
   display: flex;
   margin-left: 60px;
-  justify-content: center;
   gap: 10px;
 }
-
+.link-icon-footer{
+  display: flex;
+  gap: 10px;
+}
 .icon-circle-footer{
   width: 44px;
   height: 44px;
   border-radius: 25px;
   border: none;
   background-color: #ffffff1a;;
+  padding: 12px;
+  cursor: pointer;
+  fill: var(--primary-white-color);
 }
 .icon-circle-footer:hover,
 .icon-circle-footer:focus{
   background-color: var(--accent-color);
   cursor: pointer;
+  fill: var(--primary-white-color);
 }
 
 .social-media{
-  fill: var(--primary-white-color);
   height: 20px;
-  justify-content: center;
   width: 20px;
 }
 
+/* ----------------------------------------- */
 /* PORTAFOLIO */
+/* ----------------------------------------- */
 
 .body-portfolio{
-width: 1600px;
 height: 1880px;
 }
 
