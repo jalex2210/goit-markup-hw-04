@@ -88,6 +88,8 @@ ul{
   gap: 30px;
 }
 .contact {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
