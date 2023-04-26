@@ -377,7 +377,6 @@ color: var(--primary-white-color);
   margin-bottom: 20px;
   margin-left: 70px;
 }
-
 .items-socialmedia{
   display: flex;
   margin-left: 60px;
@@ -403,7 +402,6 @@ color: var(--primary-white-color);
   cursor: pointer;
   fill: var(--primary-white-color);
 }
-
 .social-media{
   height: 20px;
   width: 20px;
@@ -416,7 +414,6 @@ color: var(--primary-white-color);
 .body-portfolio{
 height: 1880px;
 }
-
 .portfolio-page{
   width: 1170px;
   height: 1360px;
@@ -431,7 +428,6 @@ height: 1880px;
   justify-content: center;
   gap: 8px;
 }
-
 .button-filter {
   background: var(--background-gray);
   border-radius: 4px;
@@ -443,7 +439,6 @@ height: 1880px;
   font-size: 16px;
   line-height: 26px;
 }
-
 .button-filter:hover,
 .button-filter:focus{
   height: 38px;
@@ -456,34 +451,25 @@ height: 1880px;
 
 /*imagenes*/
 
-
 .mosaic{
   display: flex;
   padding-bottom: 30px;
   flex-wrap: wrap;
   gap: 30px;
-  border: none;
 }
-
 .link-card{
   background: var(--primary-white-color);
   border: 1px solid #EEEEEE;
   width: 370px;
   height: 404px;
 }
-
 .link-card:focus,
 .link-card:hover{
-
-  border-radius: 4px;
   cursor: pointer;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
               0px 4px 4px rgba(0, 0, 0, 0.06),
               1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .title-image {
     font-weight: 700;
     font-size: 18px;
@@ -494,8 +480,8 @@ height: 1880px;
     text-align: left;
     padding-top: 20px;
     padding-bottom: 4px;
+    width: 370px;
 }
-
 .description {
     color: #757575;
     line-height: 30px;
