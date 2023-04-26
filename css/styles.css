@@ -74,7 +74,8 @@ ul{
   margin-left: 50px;
 }
 .link-header:hover,
-.link-header:focus{
+.link-header:focus,
+.link-header.current{
   color: var(--accent-color);
 }
 
