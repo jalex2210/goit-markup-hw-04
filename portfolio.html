@@ -13,176 +13,140 @@
 
   <body class="body-portfolio">
     <!-- ENCABEZADO -->
-     <header class="container nav-container">
+    <header class="container nav-container">
       <!-- nav -->
       <nav class="nav-container">
-          <!-- LOGO -->
-          <a class="Web-logo" href="./index.html">WebStudio</a>
+        <!-- LOGO -->
+        <a class="Web-logo" href="./index.html">WebStudio</a>
 
-          <!-- MENU LISTA HEADER -->
-          <a class="header-link" href="index.html">Estudio</a>
-          <a class="header-link" href="portfolio.html">Portafolio</a>
-          <a class="header-link" href="">Сontactos</a>
+        <!-- MENU LISTA HEADER -->
+        <a class="link-header" href="index.html">Estudio</a>
+        <a class="link-header" href="portfolio.html">Portafolio</a>
+        <a class="link-header" href="">Сontactos</a>
       </nav>
       <!-- contacto -->
-      <div class="contact-header">
-        <a class="contact" href="malito:info@example.com">
-          <div class="link-header">
+      <ul class="contact-header">
+        <li>
+          <a class="contact" href="malito:info@example.com">
             <svg class="icon-folder">
               <use href="./images/SVG/sprite.svg#sobre"></use>
-            </svg>info@devstudio.com
-          </div>
-        </a>
+            </svg>
+            info@devstudio.com
+          </a>
+        </li>
 
-        <a class="contact" href="tel:525555296000">
-          <div class="link-header">
+        <li>
+          <a class="contact" href="tel:525555296000">
             <svg class="icon-phone">
               <use href="./images/SVG/sprite.svg#celular"></use>
-            </svg>+52 55 5529 6000
-          </div>
-        </a>
-      </div> 
+            </svg>
+            +52 55 5529 6000
+          </a>
+        </li>  
+      </ul>
     </header>
 
     <!-- PRINCIPAL -->
     <main class="container portfolio-page">
-      
-        <!-- MENU 2-->
-        <section class="filter">
-            <a href="#" class="link-filter"></a>
-              <button class="button-filter" type="button">
-                Todo
-              </button>
-            </a>
- 
-            <a href="#" class="link-filter"></a>
-              <button class="button-filter" type="button">
-                Sitio-web
-              </button>
-            </a>
-         
-            <a href="#" class="link-filter"></a>
-              <button class="button-filter" type="button">
-                Aplicaciones
-              </button>
-            </a>
-    
-            <a href="#" class="link-filter"></a>
-              <button class="button-filter" type="button">
-                Diseño
-              </button>
-            </a>
-       
-            <a href="#" class="link-filter"></a>
-              <button class="button-filter" type="button">
-                Marketing
-              </button>
-            </a>
-        </section>
+      <!-- MENU 2-->
+      <section class="filter">
+        <a href="#" class="link-filter">
+          <button class="button-filter" type="button">Todo</button>
+        </a>
 
-        <!-- IMAGENES  -->
-        <section class="mosaic">
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project1.jpeg"
-                alt="project Tecnoduck"
-              />
-              <h2 class="title-image">Tecnoduck</h2>
-              <p class="description">Sitio-web</p>
-            </div>
-          </a>
+        <a href="#" class="link-filter">
+          <button class="button-filter" type="button">Sitio-web</button>
+        </a>
 
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project2.jpeg"
-                alt="project poster"
-              />
-              <h2 class="title-image">
-                Póster de Nueva Orleans vs Estrella Dorada
-              </h2>
-              <p class="description">Diseño</p>         
-            </div>
-          </a>
+        <a href="#" class="link-filter">
+          <button class="button-filter" type="button">Aplicaciones</button>
+        </a>
 
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project3.jpeg"
-                alt="Restaurant"
-              />
-              <h2 class="title-image">Restaurante Seafood</h2>
-              <p class="description">Aplicaciones</p>
-            </div>
-          </a>
+        <a href="#" class="link-filter">
+          <button class="button-filter" type="button">Diseño</button>
+        </a>
 
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project4.jpeg"
-                alt="Project Prime"
-              />
-              <h2 class="title-image">Proyecto Prime</h2>
-              <p class="description">Marketing</p>
-            </div>
-          </a>
+        <a href="#" class="link-filter">
+          <button class="button-filter" type="button">Marketing</button>
+        </a>
+      </section>
 
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project5.jpeg"
-                alt="project box"
-              />
-              <h2 class="title-image">Proyecto Cajas</h2>
-              <p class="description">Aplicaciones</p>
-            </div>
-          </a>
+      <!-- IMAGENES  -->
+      <section class="mosaic">
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project1.jpeg" alt="project Tecnoduck" />
+            <h2 class="title-image">Tecnoduck</h2>
+            <p class="description">Sitio-web</p>
+          </div>
+        </a>
 
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project6.jpeg"
-                alt="whitout limit"
-              />
-              <h2 class="title-image">La inspiración no tiene límites</h2>
-              <p class="description">Sitio-web</p>
-            </div>
-          </a>
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project2.jpeg" alt="project poster" />
+            <h2 class="title-image">
+              Póster de Nueva Orleans vs Estrella Dorada
+            </h2>
+            <p class="description">Diseño</p>
+          </div>
+        </a>
 
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project7.jpeg"
-                alt="limited edition"
-              />
-              <h2 class="title-image">Edición Limitada</h2>
-              <p class="description">Diseño</p>
-            </div>
-          </a>
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project3.jpeg" alt="Restaurant" />
+            <h2 class="title-image">Restaurante Seafood</h2>
+            <p class="description">Aplicaciones</p>
+          </div>
+        </a>
 
-          <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project8.jpeg"
-                alt="Project LAB"
-              />
-              <h2 class="title-image">Proyecto LAB</h2>
-              <p class="description">Marketing</p>
-            </div>
-          </a>
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project4.jpeg" alt="Project Prime" />
+            <h2 class="title-image">Proyecto Prime</h2>
+            <p class="description">Marketing</p>
+          </div>
+        </a>
 
-           <a class="link-card" href="#">
-            <div class="card-access">
-              <img
-                src="./images/project9.jpeg"
-                alt="growing business"
-              />
-              <h2 class="title-image">Negocio en Crecimiento</h2>
-              <p class="description">Aplicaciones</p>
-            </div>
-          </a>
-        </section>
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project5.jpeg" alt="project box" />
+            <h2 class="title-image">Proyecto Cajas</h2>
+            <p class="description">Aplicaciones</p>
+          </div>
+        </a>
+
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project6.jpeg" alt="whitout limit" />
+            <h2 class="title-image">La inspiración no tiene límites</h2>
+            <p class="description">Sitio-web</p>
+          </div>
+        </a>
+
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project7.jpeg" alt="limited edition" />
+            <h2 class="title-image">Edición Limitada</h2>
+            <p class="description">Diseño</p>
+          </div>
+        </a>
+
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project8.jpeg" alt="Project LAB" />
+            <h2 class="title-image">Proyecto LAB</h2>
+            <p class="description">Marketing</p>
+          </div>
+        </a>
+
+        <a class="link-card" href="#">
+          <div class="card-access">
+            <img src="./images/project9.jpeg" alt="growing business" />
+            <h2 class="title-image">Negocio en Crecimiento</h2>
+            <p class="description">Aplicaciones</p>
+          </div>
+        </a>
+      </section>
     </main>
 
     <!-- PIE DE PÁGINA -->

@@ -70,19 +70,18 @@ ul{
   font-weight: 700;
   line-height: 1.2;
 }
-
-.header-link {
+.link-header{
+  display: flex;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
   margin-left: 50px;
 }
-
-.header-link:hover,
-.header-link:focus {
+.link-header:hover{
   color: var(--accent-color);
-}   
+}
+
 
 /* contacto del header */
 
@@ -92,9 +91,8 @@ ul{
   justify-content: space-between;
   height: 16px;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
-
 .contact {
   font-weight: 500;
   line-height: 16px;
@@ -102,29 +100,23 @@ ul{
   color: var(--primary-text-color);
   fill: var(--primary-text-color);
 }
-
 .contact:focus,
 .contact:hover{
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-
 .icon-folder {
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
-
 .icon-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
 }
-
-
-header {
+header{
   border-bottom: 1px solid #ECECEC;
-  ;
 }
 
 /* ---------------------- */
