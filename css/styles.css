@@ -78,7 +78,8 @@ ul{
   color: var(--primary-title-color);
   margin-left: 50px;
 }
-.link-header:hover{
+.link-header:hover,
+.link-header:focus{
   color: var(--accent-color);
 }
 
@@ -169,27 +170,17 @@ header{
 
 /* BENEFICIOS DE LA COMPAÑIA */
 
-.icon-svg-benefit{
-  height: 70px;
-}
-
 .benefits {
   display: flex;
   padding-top: 82px;
   justify-content: space-evenly;
 }
 
-.main-benefits-p {
-  color: var(--primary-text-color);
-  display: block;
-  line-height: 24px;
-}
-
-.benefits-column{
+.benefits-column {
   width: 270px;
 }
 
-.icon-benefits{
+.icon-benefits {
   display: flex;
   width: 270px;
   height: 120px;
@@ -199,8 +190,19 @@ header{
   margin-bottom: 30px;
   margin-top: 94px;
   align-items: center;
-  
+  background-color: var(--background-gray);
 }
+
+.icon-svg-benefit {
+  height: 70px;
+}
+
+.main-benefits-p {
+  color: var(--primary-text-color);
+  display: block;
+  line-height: 24px;
+}
+
 
 .title-h3 {
   color: var(--primary-title-color);
